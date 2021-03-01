@@ -1,0 +1,41 @@
+{
+    "products": [
+      { "id": 1, 
+        "name": "Iphone 11",
+        "category_id": 1,
+        "description": "The newest offering by Apple.",
+        "price": 55000,
+        "is_available": true,
+        "rating": 4.5,
+        "vendor_name": "Apple",
+        "warranty": "1 Year",
+        "product_img": "../assets/images/iphone11.jpg"
+     },
+     { "id": 2, 
+        "name": "Macbook Pro",
+        "category_id": 1,
+        "description": "New powerful laptop by Apple.",
+        "price": 125000,
+        "is_available": true,
+        "rating": 3.5,
+        "vendor_name": "Apple",
+        "warranty": "1 Year",
+        "product_img": "../assets/images/macbook.jpg"
+     },
+     { "id": 3, 
+        "name": "AirPods",
+        "category_id": 1,
+        "description": "Earphones by Apple.",
+        "price": 8000,
+        "is_available": true,
+        "rating": 4,
+        "vendor_name": "Apple",
+        "warranty": "1 Year",
+        "product_img": "../assets/images/airpods.jpg"
+     }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
