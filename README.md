@@ -25,3 +25,29 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+angular cli v10
+
+fake json REST API server
+To use the json server -> npm install json-server
+
+Start npm server by going into src/assets/data-> file is db.json -> command:  json-server --watch db.json
+-----------------------------------------------------------------------------------------------------------
+
+API ENDPOINTS are in products.service.ts
+
+getAllProducts -> http://localhost:3000/products
+
+getCategories -> http://localhost:3000/categories
+
+viewProduct -> http://localhost:3000/products?productId=' + productID
+
+updateProduct -> http://localhost:3000/products/' + productID 
+
+deleteProduct -> http://localhost:3000/products?productId=' + productID 
+
+searchCategoryProducts -> http://localhost:3000/products?categoryId=' + categoryID
+
+searchDateProducts -> http://localhost:3000/products/date=' + dateParam
+
